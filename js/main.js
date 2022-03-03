@@ -88,7 +88,7 @@ document.body.appendChild( renderer.domElement );
 
 
 const geometry = new THREE.BoxGeometry();
-const texture = new THREE.TextureLoader().load( '../img/chale.jpg' );
+const texture = new THREE.TextureLoader().load( './chale.jpg' );
 const material = new THREE.MeshBasicMaterial( { map: texture } );
 
 const cube = new THREE.Mesh( geometry, material );
